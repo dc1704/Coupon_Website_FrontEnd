@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p, h1, h2, h3, h4, h5, h6, ul, li{
+ font-family: 'Open Sans', sans-serif;
+}
+
+head {
+    display: flex;
+}
+
+.wrapper {
+    background-color: #f4f4f4;
+}
+.nav-area span img{width: 140px;}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 2%;
+    height: 70px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-area img {
+    width: 100%;
+}
+
+article {
+   display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 20px 10px 20px 10px;
+background:crimson;
+}
+
+.client-logos a img {
+    width: 111px;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1% 0;
+}
+main h1{text-align: center;width: 100%;}
+.coupon-detail-area {
+    border: 1px solid #e5e9f0;
+    margin: 20px;
+    text-align: center;
+    width: 15%;
+    background:#fff;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.coupon-detail-area p {
+    color:#868e96;
+    font-size: 13px;
+    margin: 10px 0 10px 0;
+}
+.coupon-detail-area button{
+    background:#1abc9c;
+box-shadow: inset 0 -2px 0 rgba(0,0,0,.15);
+padding: 7px 30px;
+line-height: 1.4;
+border: none;
+border-radius: 4px;
+
+margin: 15px 0;
+    color:#fff;
+}
+.coupon-detail-area button a{color:#fff;text-decoration: none;}
+.coupon-detail-area button:hover{background-color: #099c7f;}
+.coupon-detail-area img {
+    width: 100px;
+}
+
+/*slider area starts here*/
+#slider {
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+/*slider area ends here*/
+
+/*footer area starts here*/
+footer {
+    margin-top: 0px;
+
+    width: 100%;
+    float: left;
+
+}
+
+.testimo img {
+    width: 100%;
+}
+
+.footer-area {
+    padding: 0.5% 2%;
+    width: 96%;
+        margin-top: -4px;
+    float: left;
+    background-color: #4c566a;
+
+}
+
+.footer-area a img {
+    float: left;
+    width: 150px;
+
+}
+
+.rights {
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+.rights p {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.footer-area .container {
+    width: 20%;
+
+    float: right;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    height: 50px;
+
+}
+
+.child {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    border: 0px solid orange;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 2;*/
+
+    /*short hand for flex*/
+
+
+}
+
+.child a img {
+    width: 35px;
+}
+
+/*footer area ends here*/
+
+/*voucher page content starts here*/
+.voucher-area{
+margin: 1% auto;
+width: 70%;
+padding: 20px;
+background-color: azure;
+    border:1px solid #ccc;
+}
+.voucher-area p{
+   float: left;
+    width:55%;
+    text-align: left;
+    border:1px dashed #ccc;
+    padding:10px;
+     background-color: azure;
+}
+.voucher-area span{
+    float:left;width:32%;
+    text-align: center;
+    border:1px dashed #ccc;
+    padding:10px;
+    background-color: azure;
+}
+.voucher-area h3{margin: 10px 0 10px 0;
+float: left;}
+.voucher-area ul{
+    float: left;
+width: 100%;
+margin-left: 15px;
+    margin-bottom: 20px;
+}
+/*voucher area ends*/
+
+/*testimonial area starts*/
+.testimonial-main-area{
+    width:80%;
+    margin:0 auto;
+    padding:5% 10%;
+}
+.testimonial-area{
+    width:100%;
+    float: left;
+    margin:0 auto;
+    background-color: azure;
+    padding:20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.testimonial-left{
+    float: left;
+    width:60%;
+    text-align: left;
+}
+.testimonial-right{
+    float: left;
+    width:40%;
+    text-align: right;
+}
+.testimonial-right img{
+    width: 80px;
+}
+
+/*responsive area*/
+.nav-area{
+    grid-area: nav;
+}
+.banner-area{
+    grid-area: aside;
+}
+.client-logos{
+    grid-area: article;
+}
+.main-area{
+    grid-area: main;
+}
+.testimonial-main-area{
+    grid-area: section;
+}
+.footer-main-area{
+    grid-area: footer;
+}
+.testimonial-main-area h1{
+    text-align: center;
+}
+.testimonial-main-area form{
+    background-color: azure;
+    border:1px solid #ccc;
+    padding:20px;
+}
+fieldset{padding:20px;line-height: 26px;}
+form .btn-area{background:
+#1abc9c;
+box-shadow: inset 0 -2px 0
+rgba(0,0,0,.15);
+padding: 7px 30px;
+line-height: 1.4;
+border: none;
+border-radius: 4px;
+margin: 15px 0;
+color:
+#fff;cursor:pointer;}
+.banner-area img {
+    width: 100%;
+}  
+
+
+
+
+
+  .wrapper {
+            display: grid;
+            grid-gap: 0px;
+            grid-template-areas:
+                "nav"
+                "aside"
+                "article"
+                "main"
+                "section"
+                "footer"
+            ;
+        }
+@media (max-width: 419px) and (min-width:320px) {
+    .coupon-detail-area {
+    margin: 10px;
+    width: 80%;
+}
+    .main-area h1{font-size:20px;}
+    .footer-area .container{height:auto;}
+     .footer-area .container{width:60%;}
+    .rights{display: none;}
+    .bottom-logo{float: left;
+
+width: 30%;}
+    .bottom-logo a img {
+
+    float: left;
+    width: 90%;
+
+}
+    main{justify-content: space-around;}
+    article{justify-content: space-around;}
+    nav ul{width:75%;font-size: 12px;
+    }
+  .banner-area img {
+    width: 100%;
+} 
+    textarea{width: 100%;}
+    .nav-area span img {
+    width: 80px;
+}
+    nav ul li a {
+font-size: 11px;
+    }
+    .footer-left-logo a img {
+    float: left;
+    width: 110px;
+}
+    .child{margin-top: 5px;}
+}
+
+@media (max-width: 799px) and (min-width:420px) {
+            .wrapper {
+                grid-template-columns: 1fr 4fr 1fr;
+                grid-template-areas:
+                    "nav nav  nav"
+                    "aside aside aside"
+                   "article article article"
+                    "main main main"
+                    "section section section"
+                    "title title title"
+                    "footer footer footer"
+                    
+            }
+     .coupon-detail-area {
+   
+margin: 10px;
+
+width: 40%
+     }
+    .voucher-area {
+    width: 100%;
+    padding: 7px;
+    }
+    .voucher-area p{font-size: 12px;width:51%;}
+    .voucher-area span{font-size: 12px;}
+    .voucher-area ul li{
+        font-size: 13px;
+    }
+    nav ul{width:75%;font-size: 12px;
+    }
+    .nav-area span img {
+    width: 90px;
+}
+      article{
+         display: flex;
+         justify-content:center;
+     }
+    .footer-area .container{width:60%;}
+    .rights{display: none;}
+    .bottom-logo{float: left;
+
+width: 30%;}
+    .bottom-logo a img {
+
+    float: left;
+    width: 60%;
+
+}
+    main{justify-content: space-around;}
+    textarea{width: 100%;}
+}
+ @media (max-width: 1099px) and (min-width:800px) {
+            .wrapper {
+                grid-template-columns: 1fr 4fr 1fr;
+                grid-template-areas:
+                    "nav nav  nav"
+                    "aside aside aside"
+                   "article article article"
+                    "main main main"
+                    "section section section"
+                    "header header header"
+                    "footer footer footer"
+                    
+            }
+     .coupon-detail-area {
+   
+margin: 10px;
+
+width: 25%
+     }
+     
+     .rights p{margin-top:18px;}
+     .bottom-logo a img {
+
+    float: left;
+    width: 150px;
+
+}
+     nav ul{width:75%;font-size: 12px;
+    }
+     article{
+         justify-content: center;
+     }
+     main{justify-content: space-around;}
+}
+
+@media (max-width: 1180px) and (min-width:1100px) {
+     nav ul{width:50%;
+    }
+     article{
+         justify-content: center;
+     }
+   
+}
+    @media (max-width: 1299px) and (min-width:1100px) {
+            .wrapper {
+                grid-template-columns: 1fr 4fr 1fr;
+                grid-template-areas:
+                    "nav nav  nav"
+                    "aside aside aside"
+                   "article article article"
+                    "main main main"
+                     "section section section"
+                    "span span span"
+                    "footer footer footer"
+                    
+            }
+        .coupon-detail-area{margin:15px;}     
+}
+@media (min-width: 1300px) {
+            .wrapper {
+                grid-template-columns: 1fr 4fr 1fr;
+                grid-template-areas:
+                    "nav nav  nav"
+                    "aside aside aside"
+                   "article article article"
+                    "main main main"
+                    "section section section"
+                    "title title title"
+                    "footer footer footer"
+                    
+            }
+}
